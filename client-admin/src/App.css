@@ -1,0 +1,143 @@
+/* styles.css */
+
+.body-customer {
+  
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+/* MainComponent */
+/*Danh sach tat ca nen*/
+.body-admin {
+  
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+
+}
+div.inline {
+  display: inline-block;
+  border: 3px solid rgb(23, 2, 36);
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+/* HomeComponent */
+/*CustomerComponent*/
+/* LoginComponent */
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+ 
+}
+/* LoginComponent */
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid rgb(90, 129, 180);
+
+  
+}
+
+/* HomeComponent *//* LoginComponent */
+/* CategoryComponent/ CategoryDetailComponent /*CustomerComponent*/
+.text-center {
+  text-align: center;
+  font-size: 150%;
+  color: #c225b2;
+  
+}
+span.link {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #109614;
+  color: black;
+  border-radius: 5px;
+  
+  
+}
+
+div.border-left{
+  
+  background-color: rgb(168, 167, 182);
+
+}
+
+
+
+/*MenuComponent*/
+/* CategoryComponent */
+div.float-left {
+  
+  float: left;
+}
+/* ProductDetailComponent */
+/* CategoryDetailComponent */
+/* MenuComponent */
+div.float-right {
+  float: right;
+}
+/* MenuComponent */
+div.float-clear {
+  clear: both;
+  /*Danh sach*/
+}
+/*Danh sach*/
+ul.menu {
+  
+  
+  margin: 0px;
+  padding: 0px;
+}
+/*Danh sach*/
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+  
+}
+form.search {
+  margin: 0px;
+  border: 1px solid;
+
+}
+input.keyword {
+  width: 110px;
+}
+
+/*CustomerComponent*/
+/* datatable.css */
+.datatable {
+ 
+  text-align: center;
+  border-collapse: collapse;
+  color: rgb(9, 32, 133);
+ 
+    
+}
+/* Bảng*/
+
+/* header */
+tr:first-child.datatable {
+  
+  background-color: #5ad365;
+  
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #9f0893;
+  
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #154e7d;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #48178d;
+  cursor: pointer;
+}
